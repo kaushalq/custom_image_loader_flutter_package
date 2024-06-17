@@ -1,7 +1,8 @@
 name: custom_loading_loader
-description: "A new Flutter package project."
+description: "A customizable loading indicator that rotates around an image."
 version: 0.0.1
-homepage:
+homepage: https://github.com/kaushalq/custom_image_loader_flutter_package/tree/main,
+
 
 environment:
   sdk: '>=3.3.2 <4.0.0'
