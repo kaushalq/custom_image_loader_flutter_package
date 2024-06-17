@@ -18,4 +18,5 @@ Add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  custom_loading_indicator: ^1.0.0
+  custom_loading_indicator: 
+![image](https://github.com/kaushalq/custom_image_loader_flutter_package/assets/66844932/8fae8d72-5faa-48ae-9ef1-9fae9235afd3)
