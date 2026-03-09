@@ -1,6 +1,6 @@
 name: custom_loading_loader
 description: "A highly customizable Flutter loading indicator — orbit dots (or custom widgets) around a central image with full control over shape, color, count, speed, curve, pulse, and more."
-version: 1.0.0
+version: 2.0.1
 homepage: https://github.com/kaushalq/custom_image_loader_flutter_package
 
 environment:

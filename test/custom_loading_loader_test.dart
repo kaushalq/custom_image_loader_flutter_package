@@ -212,7 +212,7 @@ void main() {
     await tester.pumpWidget(wrap(
       CustomLoadingIndicator(
         image: image,
-        orbiters: [OrbiterConfig(size: 20, child: const Icon(Icons.star, size: 20))],
+        orbiters: const [OrbiterConfig(size: 20, child:  Icon(Icons.star, size: 20))],
       ),
     ));
     expect(find.byIcon(Icons.star), findsOneWidget);

@@ -2,6 +2,19 @@
 
 A highly customizable Flutter loading indicator that orbits one or more dots (or fully custom widgets) around a central image.
 
+[![pub package](https://img.shields.io/pub/v/custom_loading_loader.svg)](https://pub.dev/packages/custom_loading_loader)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/kaushalq)
+
+---
+
+## Screenshots
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/kaushalq/custom_image_loader_flutter_package/main/images/screenshot1.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/kaushalq/custom_image_loader_flutter_package/main/images/screenshot2.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/kaushalq/custom_image_loader_flutter_package/main/images/screenshot3.png" width="30%" />
+</p>
+
 ---
 
 ## Features
@@ -27,8 +40,7 @@ A highly customizable Flutter loading indicator that orbits one or more dots (or
 
 ```yaml
 dependencies:
-  custom_loading_loader:
-    path: ../custom_loading_loader   # or pub.dev version
+  custom_loading_loader: ^1.0.0
 ```
 
 ---
@@ -54,8 +66,8 @@ CustomLoadingIndicator(
     shape: BoxShape.circle,
   ),
   orbiters: const [
-    OrbiterConfig(color: Colors.blue,  size: 14),
-    OrbiterConfig(color: Colors.red,   size: 10, phaseOffset: 0.5),
+    OrbiterConfig(color: Colors.blue, size: 14),
+    OrbiterConfig(color: Colors.red,  size: 10, phaseOffset: 0.5),
   ],
   orbitRadiusFactor: 0.9,
   duration: const Duration(milliseconds: 1200),
@@ -86,8 +98,6 @@ CustomLoadingIndicator(
 
 ### Spacing multiple orbiters evenly
 
-Divide `1.0` by the number of orbiters and use as `phaseOffset`:
-
 ```dart
 // 3 dots, 120° apart
 orbiters: [
@@ -115,9 +125,17 @@ orbiters: [
 | `clockwise` | `bool` | `true` |
 | `orbitCurve` | `OrbitCurve` | `.linear` |
 | `showOrbitTrack` | `bool` | `false` |
-| `orbitTrackColor` | `Color?` | grey 20 % |
+| `orbitTrackColor` | `Color?` | grey 20% |
 | `orbitTrackWidth` | `double` | `1.0` |
 | `pulseImage` | `bool` | `false` |
 | `pulseScale` | `double` | `1.08` |
 | `paused` | `bool` | `false` |
 | `onCycleComplete` | `VoidCallback?` | `null` |
+
+---
+
+## Support
+
+If this package helped you, consider buying me a coffee! ☕
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kaushalq)

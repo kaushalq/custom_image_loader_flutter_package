@@ -244,7 +244,7 @@ class _CustomLoadingIndicatorState extends State<CustomLoadingIndicator>
           painter: _OrbitTrackPainter(
             show: widget.showOrbitTrack,
             radius: radius,
-            color: widget.orbitTrackColor ?? Colors.grey.withOpacity(0.2),
+            color: widget.orbitTrackColor ?? Colors.grey.withValues(alpha: 0.2),
             strokeWidth: widget.orbitTrackWidth,
           ),
           child: Stack(

@@ -146,7 +146,7 @@ class _CustomLoadingIndicatorState extends State<CustomLoadingIndicator>
           painter: _OrbitTrackPainter(
             show: widget.showOrbitTrack,
             radius: radius,
-            color: widget.orbitTrackColor ?? Colors.grey.withOpacity(0.2),
+            color: widget.orbitTrackColor ?? Colors.grey.withValues(alpha: 0.2),
             strokeWidth: widget.orbitTrackWidth,
           ),
           child: Stack(
@@ -464,9 +464,9 @@ class _ExamplesPageState extends State<ExamplesPage> {
               CustomLoadingIndicator(
                 image: image,
                 size: 120,
-                orbiters: [
-                  OrbiterConfig(size: 18, phaseOffset: 0,   child: const Icon(Icons.star,     color: Colors.amber, size: 18)),
-                  OrbiterConfig(size: 18, phaseOffset: 0.5, child: const Icon(Icons.favorite, color: Colors.red,   size: 18)),
+                orbiters: const[
+                  OrbiterConfig(size: 18, phaseOffset: 0,   child:  Icon(Icons.star,     color: Colors.amber, size: 18)),
+                  OrbiterConfig(size: 18, phaseOffset: 0.5, child:  Icon(Icons.favorite, color: Colors.red,   size: 18)),
                 ],
                 paused: _paused,
               ),

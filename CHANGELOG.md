@@ -1,4 +1,4 @@
-## 1.0.0
+## 2.0.1
 
 ### New features
 - **Multiple orbiters** – pass any number of `OrbiterConfig` objects; each can have a different color, size, shape, and phase offset
